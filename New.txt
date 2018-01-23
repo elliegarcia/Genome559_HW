@@ -1,1 +1,1 @@
-ogstring
+['\xe2\x80\x9cHello world\xe2\x80\x9d\n', '"How ya doin?"\n', '"Line 1"']
