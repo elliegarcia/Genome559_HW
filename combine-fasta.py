@@ -8,4 +8,4 @@ concatenatedfasta = firstfastastring + secondfastastring
 newfile = open(sys.argv[3], "w")
 newfile.write("%s"%concatenatedfasta)
 newfile.close()
-#need to test this
+print "Fasta concatenation complete!"
