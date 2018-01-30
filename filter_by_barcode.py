@@ -1,8 +1,8 @@
 import sys
 barcodesfile = open(sys.argv[3], "r") #opens the barcodes.txt document
-for line in barcodesfile:
-    barcodesstring = barcodesfile.readline()
-    print barcodesstring
+barcodesstring = barcodesfile.read()
+for line in barcodesstring:
+    print line
 
 #barcodeslist = barcodesstring.split()
 #barcodesindex = barcodeslist.index(sys.argv[1])
