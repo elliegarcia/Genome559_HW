@@ -1,3 +1,0 @@
-“Hello world”
-"How ya doin?"
-"Line 1"

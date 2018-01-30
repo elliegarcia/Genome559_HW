@@ -5,9 +5,18 @@ import sys
 #    total = total + integernum
 #    print total
 
-hellofile = open("Hello.txt", "r")
+#maxnum = int(sys.argv[1])
+#total = 0
+#square = 0
+#while ( total < maxnum):
+#    square = square + 1
+#    total = square * square
+#    print total
 
-for line in hellofile:
-    for word in line.split():
-        print len(word)
-hellofile.close()
+myfile = open(sys.argv[1], "r")
+linecount = 0
+line = myfile.readline()
+while (line != ""):
+    linecount += 1
+    line = myfile.readline()
+    print linecount
