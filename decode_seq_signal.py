@@ -19,9 +19,16 @@ yellowstring = yellowfile.read()
 yellowlist = yellowstring.split(",")
 yellowlist = map(int, yellowlist)
 
+sequence = []
 length = len(greenlist)
-for base in range(0,7):
-    if (redlist.pop(base) > greenlist.pop(base)) or (redlist.pop(base) > yellowlist.pop(base)) or (redlist.pop(base) > bluelist.pop(base)):
-        print "yes"
-    else:
-        print "no"
+for base in range(0,length):
+    if (redlist[base] > greenlist[base]) and (redlist[base] > bluelist[base]) and (redlist[base] > yellowlist[base]):
+        sequence.append("T")
+    elif (greenlist[base] > redlist[base]) and (greenlist[base] > bluelist[base]) and (greenlist[base] > yellowlist[base]):
+        sequence.append("A")
+    elif (bluelist[base] > redlist[base]) and (bluelist[base] > greenlist[base]) and (bluelist[base] > yellowlist[base]):
+        sequence.append("C")
+    elif (yellowlist[base] > redlist[base]) and (yellowlist[base] > greenlist[base]) and (yellowlist[base] > bluelist[base]):
+        sequence.append("G")
+sequence = "".join(sequence)
+print sequence
