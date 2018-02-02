@@ -14,9 +14,3 @@ import sys
 #    print total
 
 myfile = open(sys.argv[1], "r")
-linecount = 0
-line = myfile.readline()
-while (line != ""):
-    linecount += 1
-    line = myfile.readline()
-    print linecount
