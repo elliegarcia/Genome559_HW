@@ -32,3 +32,8 @@ for base in range(0,length):
         sequence.append("G")
 sequence = "".join(sequence)
 print sequence
+
+greenfile.close()
+redfile.close()
+bluefile.close()
+yellowfile.close()
