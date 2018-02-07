@@ -7,10 +7,10 @@ chromosome21string = chromosome21string.replace('\n', '') #get rid of \n in the 
 countsdictionary = {} #make a dictionary
 counts = 0 #start a counts
 for line in chromosome21string:
-    endmag = counts + int(sys.argv[2])
-    magnifier = chromosome21string[counts:endmag]
-    counts += 1
-    if magnifier in countsdictionary:
+    endmag = counts + int(sys.argv[2]) #make the end of the magnifier
+    magnifier = chromosome21string[counts:endmag] #define the magnifier
+    counts += 1 # add a count +1 for ever loop
+    if magnifier in countsdictionary: #search for the magnifier in the dictionary
         countsdictionary[magnifier] += 1
     else:
         countsdictionary[magnifier] = int(1)
