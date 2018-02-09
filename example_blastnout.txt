@@ -1,0 +1,327 @@
+BLASTN 2.2.20 [Feb-08-2009]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Query= OR1.5.6
+         (879 letters)
+
+Database: chr1.fasta 
+           1 sequences; 249,250,621 total letters
+
+
+ Score = 1742 bits (879), Expect = 0.0
+ Identities = 879/879 (100%)
+ Strand = Plus / Plus
+
+                                                                             
+Query: 1         atgggattttcgaattcctgggatattcagattgtacatgctgctctattcttcctagtt 60
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 247782983 atgggattttcgaattcctgggatattcagattgtacatgctgctctattcttcctagtt 247783042
+
+                                                                             
+Query: 61        tacctggcagctgtcataggaaatctcctaatcatcatacttaccactctggatgttcac 120
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 247783043 tacctggcagctgtcataggaaatctcctaatcatcatacttaccactctggatgttcac 247783102
+
+                                                                             
+Query: 121       ctccaaaccccaatgtatttctttttgagaaacttgtctttcttagatttttgttacatc 180
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 247783103 ctccaaaccccaatgtatttctttttgagaaacttgtctttcttagatttttgttacatc 247783162
+
+                                                                             
+Query: 181       tctgtcacaattccaaaatctattgttagttccttgactcatgatacttccatttctttc 240
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 247783163 tctgtcacaattccaaaatctattgttagttccttgactcatgatacttccatttctttc 247783222
+
+                                                                             
+Query: 241       tttgggtgtgctctgcaagccttctttttcatggacttggcaactacggaggtagccatc 300
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 247783223 tttgggtgtgctctgcaagccttctttttcatggacttggcaactacggaggtagccatc 247783282
+
+                                                                             
+Query: 301       cttacagtgatgtcctatgaccgctatatggccatctgccggcctttacattatgaggtc 360
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 247783283 cttacagtgatgtcctatgaccgctatatggccatctgccggcctttacattatgaggtc 247783342
+
+                                                                             
+Query: 361       atcataaaccaaggtgtctgtctgaggatgatggccatgtcgtggctcagtggggtgatc 420
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 247783343 atcataaaccaaggtgtctgtctgaggatgatggccatgtcgtggctcagtggggtgatc 247783402
+
+                                                                             
+Query: 421       tgtggattcatgcatgtgatagcaacattctcattaccattctgtgggcgcaatagaata 480
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 247783403 tgtggattcatgcatgtgatagcaacattctcattaccattctgtgggcgcaatagaata 247783462
+
+                                                                             
+Query: 481       cgtcaatttttctgtaatattccacagctcctaagcctcttagaccccaaagtaattacc 540
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 247783463 cgtcaatttttctgtaatattccacagctcctaagcctcttagaccccaaagtaattacc 247783522
+
+                                                                             
+Query: 541       attgagattggagtcatggtttttggtacaagtcttgtgataatctcctttgttgtaatt 600
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 247783523 attgagattggagtcatggtttttggtacaagtcttgtgataatctcctttgttgtaatt 247783582
+
+                                                                             
+Query: 601       actctctcctacatgtacattttttctgtcatcatgaggattccttctaaggagggtaga 660
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 247783583 actctctcctacatgtacattttttctgtcatcatgaggattccttctaaggagggtaga 247783642
+
+                                                                             
+Query: 661       tcaaaaacattttctacctgcattccacatcttgtggttgtaacactctttatgatatct 720
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 247783643 tcaaaaacattttctacctgcattccacatcttgtggttgtaacactctttatgatatct 247783702
+
+                                                                             
+Query: 721       ggcagcattgcctatgtgaagccaatttcaaattctccccccgttctggatgttttcctg 780
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 247783703 ggcagcattgcctatgtgaagccaatttcaaattctccccccgttctggatgttttcctg 247783762
+
+                                                                             
+Query: 781       tctgcgttctacacagtcgtgcccccgaccctgaaccccgtcatctatagtctgaggaat 840
+                 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 247783763 tctgcgttctacacagtcgtgcccccgaccctgaaccccgtcatctatagtctgaggaat 247783822
+
+                                                        
+Query: 841       agggacatgaaggcagccctgagaaggcagtgtggtccc 879
+                 |||||||||||||||||||||||||||||||||||||||
+Sbjct: 247783823 agggacatgaaggcagccctgagaaggcagtgtggtccc 247783861
+
+
+
+ Score = 48.1 bits (24), Expect = 7e-004
+ Identities = 33/36 (91%)
+ Strand = Plus / Plus
+
+                                                     
+Query: 304       acagtgatgtcctatgaccgctatatggccatctgc 339
+                 |||||||||  |||||||| ||||||||||||||||
+Sbjct: 159568433 acagtgatgggctatgaccactatatggccatctgc 159568468
+
+
+
+ Score = 44.1 bits (22), Expect = 0.011
+ Identities = 28/30 (93%)
+ Strand = Plus / Minus
+
+                                               
+Query: 310       atgtcctatgaccgctatatggccatctgc 339
+                 |||||||||||||||||| | |||||||||
+Sbjct: 247887000 atgtcctatgaccgctatgtagccatctgc 247886971
+
+
+
+ Score = 44.1 bits (22), Expect = 0.011
+ Identities = 25/26 (96%)
+ Strand = Plus / Minus
+
+                                           
+Query: 310       atgtcctatgaccgctatatggccat 335
+                 |||||||||||||||||| |||||||
+Sbjct: 247997240 atgtcctatgaccgctatgtggccat 247997215
+
+
+
+ Score = 42.1 bits (21), Expect = 0.045
+ Identities = 30/33 (90%)
+ Strand = Plus / Plus
+
+                                                  
+Query: 310       atgtcctatgaccgctatatggccatctgccgg 342
+                 |||||| ||||||||||| ||||| ||||||||
+Sbjct: 247654781 atgtcccatgaccgctatgtggccgtctgccgg 247654813
+
+
+
+ Score = 40.1 bits (20), Expect = 0.18
+ Identities = 20/20 (100%)
+ Strand = Plus / Minus
+
+                                    
+Query: 91       atcatcatacttaccactct 110
+                ||||||||||||||||||||
+Sbjct: 37553428 atcatcatacttaccactct 37553409
+
+
+
+ Score = 40.1 bits (20), Expect = 0.18
+ Identities = 23/24 (95%)
+ Strand = Plus / Plus
+
+                                         
+Query: 315       ctatgaccgctatatggccatctg 338
+                 |||||| |||||||||||||||||
+Sbjct: 158435708 ctatgatcgctatatggccatctg 158435731
+
+
+
+ Score = 40.1 bits (20), Expect = 0.18
+ Identities = 23/24 (95%)
+ Strand = Plus / Minus
+
+                                         
+Query: 316       tatgaccgctatatggccatctgc 339
+                 |||||||||||| |||||||||||
+Sbjct: 159284089 tatgaccgctatgtggccatctgc 159284066
+
+
+
+ Score = 40.1 bits (20), Expect = 0.18
+ Identities = 23/24 (95%)
+ Strand = Plus / Plus
+
+                                         
+Query: 316       tatgaccgctatatggccatctgc 339
+                 |||||||||||| |||||||||||
+Sbjct: 159409939 tatgaccgctatgtggccatctgc 159409962
+
+
+
+ Score = 40.1 bits (20), Expect = 0.18
+ Identities = 23/24 (95%)
+ Strand = Plus / Minus
+
+                                         
+Query: 316       tatgaccgctatatggccatctgc 339
+                 |||||||||||| |||||||||||
+Sbjct: 159505440 tatgaccgctatgtggccatctgc 159505417
+
+
+
+ Score = 38.2 bits (19), Expect = 0.70
+ Identities = 19/19 (100%)
+ Strand = Plus / Minus
+
+                                   
+Query: 138      tttctttttgagaaacttg 156
+                |||||||||||||||||||
+Sbjct: 70401959 tttctttttgagaaacttg 70401941
+
+
+
+ Score = 38.2 bits (19), Expect = 0.70
+ Identities = 19/19 (100%)
+ Strand = Plus / Plus
+
+                                   
+Query: 14       attcctgggatattcagat 32
+                |||||||||||||||||||
+Sbjct: 79645968 attcctgggatattcagat 79645986
+
+
+
+ Score = 38.2 bits (19), Expect = 0.70
+ Identities = 34/39 (87%)
+ Strand = Plus / Plus
+
+                                                        
+Query: 307       gtgatgtcctatgaccgctatatggccatctgccggcct 345
+                 |||||||||||||| |||||  | |||||||||| ||||
+Sbjct: 111396918 gtgatgtcctatgatcgctacctagccatctgccagcct 111396956
+
+
+
+ Score = 38.2 bits (19), Expect = 0.70
+ Identities = 19/19 (100%)
+ Strand = Plus / Minus
+
+                                    
+Query: 855       agccctgagaaggcagtgt 873
+                 |||||||||||||||||||
+Sbjct: 117507040 agccctgagaaggcagtgt 117507022
+
+
+
+ Score = 38.2 bits (19), Expect = 0.70
+ Identities = 19/19 (100%)
+ Strand = Plus / Plus
+
+                                    
+Query: 587       cctttgttgtaattactct 605
+                 |||||||||||||||||||
+Sbjct: 160927555 cctttgttgtaattactct 160927573
+
+
+
+ Score = 38.2 bits (19), Expect = 0.70
+ Identities = 19/19 (100%)
+ Strand = Plus / Plus
+
+                                    
+Query: 170       tttgttacatctctgtcac 188
+                 |||||||||||||||||||
+Sbjct: 237357144 tttgttacatctctgtcac 237357162
+
+
+
+ Score = 38.2 bits (19), Expect = 0.70
+ Identities = 28/31 (90%)
+ Strand = Plus / Plus
+
+                                                
+Query: 297       catccttacagtgatgtcctatgaccgctat 327
+                 ||||||||| |  ||||||||||||||||||
+Sbjct: 247902249 catccttactgccatgtcctatgaccgctat 247902279
+
+
+
+ Score = 38.2 bits (19), Expect = 0.70
+ Identities = 28/31 (90%)
+ Strand = Plus / Plus
+
+                                                
+Query: 310       atgtcctatgaccgctatatggccatctgcc 340
+                 ||||| |||||||||||||| ||||| ||||
+Sbjct: 248308801 atgtcttatgaccgctatattgccatttgcc 248308831
+
+
+
+ Score = 38.2 bits (19), Expect = 0.70
+ Identities = 25/27 (92%)
+ Strand = Plus / Plus
+
+                                            
+Query: 314       cctatgaccgctatatggccatctgcc 340
+                 |||||||||||||  ||||||||||||
+Sbjct: 248525334 cctatgaccgctacgtggccatctgcc 248525360
+
+
+
+ Score = 38.2 bits (19), Expect = 0.70
+ Identities = 25/27 (92%)
+ Strand = Plus / Plus
+
+                                            
+Query: 314       cctatgaccgctatatggccatctgcc 340
+                 |||||||||||||  ||||||||||||
+Sbjct: 248652257 cctatgaccgctacgtggccatctgcc 248652283
+
+
+
+ Score = 38.2 bits (19), Expect = 0.70
+ Identities = 25/27 (92%)
+ Strand = Plus / Minus
+
+                                            
+Query: 314       cctatgaccgctatatggccatctgcc 340
+                 |||||||||||||  ||||||||||||
+Sbjct: 248722425 cctatgaccgctacgtggccatctgcc 248722399
+
+
+
+ Score = 38.2 bits (19), Expect = 0.70
+ Identities = 25/27 (92%)
+ Strand = Plus / Minus
+
+                                            
+Query: 314       cctatgaccgctatatggccatctgcc 340
+                 |||||||||||||| |||| |||||||
+Sbjct: 248756714 cctatgaccgctatgtggctatctgcc 248756688
+
+
+
