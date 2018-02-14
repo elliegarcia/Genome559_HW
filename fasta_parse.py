@@ -16,6 +16,7 @@ def fasta_parse(fastafile): # this function puts the fastafile into a dictionary
             value = value + line # concatonate the value and the line
             fastadictionary[key] = value #input that value into the dictionary
     return fastadictionary #return the dictionary after the loop is done
+
 yeastdictionary = fasta_parse(fastafile) # run the function and give the dictionary a variable
 print "There are", len(yeastdictionary.keys()), "sequences in the fasta file."
 fastafile.close()
