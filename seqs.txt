@@ -1,0 +1,8 @@
+red_panda
+ATCCGTATA
+giant_panda
+ATCTGTAAA
+raccoon
+ATTTGCAAA
+dog
+CTCTGCACA
