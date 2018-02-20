@@ -1,8 +1,7 @@
 import sys
 import random
 import math
-## This function simulates an M-step random walk, starting at 0,
-## and returns the absolute value of the maximum deviation
+## This function simulates an M-step random walk from 0 and returns the absolute value of the maximum deviation
 def findmaxdev(steps):
     position = int(0) # initialize a starting point of 0
     steplist = [int(0)] # initialize a list with first item 0
