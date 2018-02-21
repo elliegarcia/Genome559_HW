@@ -20,6 +20,11 @@ def beautifymatrix(matrixlist):
     stringline.strip() # strip the string
     return stringline
 
+
+def summatrix(matrix1, matrix2):
+    result = matrix1
+    for i in range(len(matrix1)):
+
 ########## Running the Functions ###########
 matrixfile = open(sys.argv[1], "r")
 listoflists = make2dlist(matrixfile)
@@ -34,7 +39,7 @@ Y = [[5,8,1],
     [6,7,3],
     [4,5,9]]
 
-result = [[0,0,0],
+result = [[3,3,3],
          [0,0,0],
          [0,0,0]]
 
@@ -46,3 +51,7 @@ for i in range(len(X)):
 
 for r in result:
    print(r)
+
+for i in range(len(X)):
+    for j in range(len(X)):
+        for n in range():
