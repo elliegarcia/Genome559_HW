@@ -33,11 +33,14 @@
 #    total = square * square
 #    print total
 
-def fibonacci(n, start1 = 0, start2 = 1):
-    list = [start1, start2]
-    for i in range(2, n):
-        list.append(list[i-1] + list[i-2])
-    ratio = float(list[n-1])/float(list[n-2])
-    return [list[0:n], ratio]
+# def fibonacci(n, start1 = 0, start2 = 1):
+#     list = [start1, start2]
+#     for i in range(2, n):
+#         list.append(list[i-1] + list[i-2])
+#     ratio = float(list[n-1])/float(list[n-2])
+#     return [list[0:n], ratio]
+#
+# print fibonacci(10, 4, 7)
 
-print fibonacci(10, 4, 7)
+def stringcompare(string1, string2):
+    string1 = string1.lower()
