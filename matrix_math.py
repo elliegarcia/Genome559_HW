@@ -20,38 +20,29 @@ def beautifymatrix(matrixlist):
     stringline.strip() # strip the string
     return stringline
 
-
-def summatrix(matrix1, matrix2):
-    result = matrix1
-    for i in range(len(matrix1)):
+## This function takes two matrix files, adds them together (entry-wise), and prints the result
+def summatrix(matrixfile1, matrixfile2):
+    matrix1 = make2dlist(matrixfile1) # turns the matrix file into a list
+    matrix2 = make2dlist(matrixfile2)
+    result = matrix1 # initialize the result
+    for i in range(len(matrix1)): # iterate through rows
+        for j in range (len(matrix1[0])): # iterate through columns
+            result[i][j] = matrix1[i][j] + matrix2[i][j]
+    pretty_result = beautifymatrix(result) # make the matrix pretty
+    return pretty_result
 
 ########## Running the Functions ###########
 matrixfile = open(sys.argv[1], "r")
-listoflists = make2dlist(matrixfile)
-matrixfile2 = open(sys.argv[1], 'r')
-listoflists2 = make2dlist(matrixfile2)
+matrixfile2p0 = open(sys.argv[1], 'r')
+answer = summatrix(matrixfile, matrixfile2p0)
+print answer
+# https://stackoverflow.com/questions/10508021/matrix-multiplication-in-python
+def matmult(a,b):
+    zip_b = zip(*b)
+    # uncomment next line if python 3 :
+    # zip_b = list(zip_b)
+    return [[sum(ele_a*ele_b for ele_a, ele_b in zip(row_a, col_b))
+             for col_b in zip_b] for row_a in a]
 
-X = [[12,7,3],
-    [4,5,6],
-    [7,8,9]]
-
-Y = [[5,8,1],
-    [6,7,3],
-    [4,5,9]]
-
-result = [[3,3,3],
-         [0,0,0],
-         [0,0,0]]
-
-# iterate through rows
-for i in range(len(X)):
-   # iterate through columns
-   for j in range(len(X[0])):
-       result[i][j] = X[i][j] + Y[i][j]
-
-for r in result:
-   print(r)
-
-for i in range(len(X)):
-    for j in range(len(X)):
-        for n in range():
+x = [[1,2,3],[4,5,6],[7,8,9],[10,11,12]]
+y = [[1,2],[1,2],[3,4]]
