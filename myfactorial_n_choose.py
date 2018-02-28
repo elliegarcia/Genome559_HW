@@ -17,7 +17,7 @@ def my_choose(n, k):
     binomial = numerator/(kfact*n_kfact) # put all the variables in the formula
     return binomial # return the binomial coefficient
 
-### Running the function ####
+### Running the functions ####
 import sys
 n = int(sys.argv[1])
 k = int(sys.argv[2])
