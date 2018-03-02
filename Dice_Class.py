@@ -4,14 +4,18 @@ import random
 class Dice:
     def __init__(self, numDice, numSides):
         self.numDice = int(numDice)
-        self.numSides = numSides
+        self.numSides = int(numSides)
+
     def Roll(self):
-        random.randint(0, numSides):
-        
+        mylist = []
+        for x in range(0,2):
+            x = random.randint(1, 6)
+            mylist.append(x)
+        return mylist
+
     def __str__(self):
-        numDice_str = '%s' % self.numDice
-        numSides_str = '%s' % self.numSides
-        return '[' + numDice_str + ',' + numSides_str + ']'
+        mylist_str = '%s' % mylist
+        return mylist_str
 
 Craps_dice = Dice (2, 6)
 print Craps_dice
