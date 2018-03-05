@@ -11,7 +11,7 @@ class Dice:
         for x in range(0,self.numDice): # for every die
             x = random.randint(1, self.numSides) # roll the die based on the number of sides
             mylist.append(x) # add that number to a list
-        print mylist
+        return mylist
 
     def __str__(self):
         numDice_str = '%s' % self.numDice
